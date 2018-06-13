@@ -15,6 +15,9 @@ fi
 sudo sed -i 's/ LC_\*$/ LC_* GIT_*/' /etc/ssh/sshd_config
 sudo service sshd restart
 
+# Git configuration
+git config --global push.default simple
+
 # general distribution updates
 sudo apt-get update > /dev/null
 
