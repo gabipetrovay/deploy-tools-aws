@@ -1,2 +1,3 @@
 # deploy-tools-aws
-Resources required by AWS deployment
+
+Resources required by AWS deployments.
